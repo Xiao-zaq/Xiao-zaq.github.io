@@ -1,0 +1,11 @@
+Experiment,Network,Question,ProspectiveDesign,Prerequisites,ExecutionStatus
+A,ND,causal implementation gates,5 declared cases,"physical replay, source identity",NOT_EXECUTED_IN_THIS_DELIVERY
+B,ND,same availability,3 demand x 3 utilization x 5 scales; N=500 or 1000 per cell,"certified pre-DUE, CRN, event physical state",NOT_EXECUTED_IN_THIS_DELIVERY
+C,ND,adaptation boundary,3 demand x [theta0 + 4 positive theta x 2 response types] = 27,"locked prefixes, rolling residual VI",NOT_EXECUTED_IN_THIS_DELIVERY
+D,ND,repair replanning interaction,5 theta x 5 budget with four paired response arms,"same shock, re-equilibrated repair response, consistent cost",NOT_EXECUTED_IN_THIS_DELIVERY
+E,ND,WCL buffer,3 power x 4 loss x 2 repair = 24,"powered location, energy, matched shock",NOT_EXECUTED_IN_THIS_DELIVERY
+F,SF24,preparedness stress test,4 inherited policy states x 2 shock types,four real re-equilibrated policy states and costs,NOT_EXECUTED_IN_THIS_DELIVERY
+G,SF24,governance frontier,G0 G1 G2 G3 G4 G5,"repair-grid regret for G1/G2, same physical budget",NOT_EXECUTED_IN_THIS_DELIVERY
+H,SF24,pool delay,1 local + 4 positive pool shares x 4 delays = 17,"resource travel delay, matched local comparison",NOT_EXECUTED_IN_THIS_DELIVERY
+I,SF24,low SOC priority,"revenue, queue, criticality, low SOC weights",unchanged FIFO; real low-SOC exposure,NOT_EXECUTED_IN_THIS_DELIVERY
+J,SF24,compound event,3 selected governance x 3 shock families = 9,FCS/WCL/road physical event alignment,NOT_EXECUTED_IN_THIS_DELIVERY

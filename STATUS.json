@@ -1,0 +1,24 @@
+{
+  "version": "P4_RESEARCH_V1",
+  "delivery_date": "2026-11-17",
+  "production_admission": "CLOSED",
+  "implemented_and_run": [
+    "exact CTMC clock",
+    "fractional FCS",
+    "WCL energy and SOC",
+    "fixed-flow fixture network DNL",
+    "serial CTM",
+    "analytic VI",
+    "finite repair game tests",
+    "reference figures and CSVs"
+  ],
+  "formal_SF24_DNL": "NOT_EXECUTED",
+  "formal_pre_DUE": "NOT_GRANTED",
+  "formal_rolling_DUE": "NOT_IMPLEMENTED_INTEGRATION",
+  "formal_G1_G2_game": "ORACLE_INTEGRATION_MISSING",
+  "formal_preparedness_F": "FOUR_INHERITED_STATES_MISSING",
+  "historical_135": "UNCHANGED_NOT_RECOMPUTED",
+  "P5P3_original_bytes": "NOT_INCLUDED_LOCAL_IMPORT_AVAILABLE",
+  "MATLAB": "SOURCE_DELIVERED_EXECUTION_PENDING",
+  "GitHub_scope": "new research branch; original manuscript and original parent-source identity ledger not included"
+}

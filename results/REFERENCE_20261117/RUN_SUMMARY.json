@@ -1,0 +1,19 @@
+{
+  "version": "P4_RESEARCH_V1",
+  "date": "2026-11-17",
+  "scope": "REFERENCE_COMPONENT_AND_FIXED_FLOW_FIXTURE",
+  "tests_passed": 38,
+  "matlab_executed": false,
+  "monte_carlo_replicates": 1000,
+  "port_paths": 5000,
+  "full_network_sf24_dnl_calls": 0,
+  "formal_due_calls": 0,
+  "historical_135_runs": 0,
+  "ctm_mass_residual_max": 0.0,
+  "fixedflow_mass_residual": 0.0,
+  "fixedflow_fcs_energy_residual": 0.0,
+  "figures": 10,
+  "original_p5p3_bytes_included": false,
+  "production_admission": "CLOSED",
+  "runtime_seconds": 6.857690150000053
+}

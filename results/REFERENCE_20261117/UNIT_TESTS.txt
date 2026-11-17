@@ -1,0 +1,43 @@
+test_ctm_cfl_rejected (test_core.PhysicsTests.test_ctm_cfl_rejected) ... ok
+test_ctm_mass_and_storage (test_core.PhysicsTests.test_ctm_mass_and_storage) ... ok
+test_energy_and_mass_conservation (test_core.PhysicsTests.test_energy_and_mass_conservation) ... ok
+test_equal_availability (test_core.PhysicsTests.test_equal_availability) ... ok
+test_failed_station_preserves_commitment (test_core.PhysicsTests.test_failed_station_preserves_commitment) ... ok
+test_fractional_fifo_split (test_core.PhysicsTests.test_fractional_fifo_split) ... ok
+test_future_change_does_not_change_prefix (test_core.PhysicsTests.test_future_change_does_not_change_prefix) ... ok
+test_hazard_partition (test_core.PhysicsTests.test_hazard_partition) ... ok
+test_hazard_rate_change_no_reset (test_core.PhysicsTests.test_hazard_rate_change_no_reset) ... ok
+test_locked_prefix_order (test_core.PhysicsTests.test_locked_prefix_order) ... ok
+test_no_events_at_zero_rate (test_core.PhysicsTests.test_no_events_at_zero_rate) ... ok
+test_pool_no_resource_creation (test_core.PhysicsTests.test_pool_no_resource_creation) ... ok
+test_pool_physical_delay (test_core.PhysicsTests.test_pool_physical_delay) ... ok
+test_recovery_hold (test_core.PhysicsTests.test_recovery_hold) ... ok
+test_recovery_right_censoring (test_core.PhysicsTests.test_recovery_right_censoring) ... ok
+test_repair_game_cycle_not_nash (test_core.PhysicsTests.test_repair_game_cycle_not_nash) ... ok
+test_repair_game_known_solution (test_core.PhysicsTests.test_repair_game_known_solution) ... ok
+test_simplex_projection (test_core.PhysicsTests.test_simplex_projection) ... ok
+test_soc_infeasibility_is_not_penalty (test_core.PhysicsTests.test_soc_infeasibility_is_not_penalty) ... ok
+test_tiny_mass_service_duration (test_core.PhysicsTests.test_tiny_mass_service_duration) ... ok
+test_vehicle_and_aggregate_caps (test_core.PhysicsTests.test_vehicle_and_aggregate_caps) ... ok
+test_vi_counts_all_positive_mass (test_core.PhysicsTests.test_vi_counts_all_positive_mass) ... ok
+test_vi_exhaustion_is_not_pass (test_core.PhysicsTests.test_vi_exhaustion_is_not_pass) ... ok
+test_vi_known_solution (test_core.PhysicsTests.test_vi_known_solution) ... ok
+test_wcl_battery_limit (test_core.PhysicsTests.test_wcl_battery_limit) ... ok
+test_wcl_queue_not_energized (test_core.PhysicsTests.test_wcl_queue_not_energized) ... ok
+test_weighted_quantile (test_core.PhysicsTests.test_weighted_quantile) ... ok
+test_bootstrap_paired_constant (test_metrics.MetricTests.test_bootstrap_paired_constant) ... ok
+test_interaction_sign (test_metrics.MetricTests.test_interaction_sign) ... ok
+test_priority_equal (test_metrics.MetricTests.test_priority_equal) ... ok
+test_waiting_service_not_net (test_metrics.MetricTests.test_waiting_service_not_net) ... ok
+test_zero_loss_no_fake_gain (test_metrics.MetricTests.test_zero_loss_no_fake_gain) ... ok
+test_broken_topology_rejected (test_network.NetworkTests.test_broken_topology_rejected) ... ok
+test_missing_discharge_rejected (test_network.NetworkTests.test_missing_discharge_rejected) ... ok
+test_no_wcl_in_downstream_queue (test_network.NetworkTests.test_no_wcl_in_downstream_queue) ... ok
+test_road_clock_and_fifo (test_network.NetworkTests.test_road_clock_and_fifo) ... ok
+test_route_mass_energy (test_network.NetworkTests.test_route_mass_energy) ... ok
+test_unfinished_not_completed (test_network.NetworkTests.test_unfinished_not_completed) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.020s
+
+OK

@@ -1,0 +1,42 @@
+[
+  {
+    "file": "R01_SF24_BASE_TOPOLOGY",
+    "caption": "Public benchmark graph only. No 107-path or 491-path mapping is asserted."
+  },
+  {
+    "file": "R02_AVAILABILITY_TIME_SCALE",
+    "caption": "a=0.97 and MTTR=60 min at c=1 are declared mechanism parameters."
+  },
+  {
+    "file": "R03_EXPECTED_RECOVERY",
+    "caption": "Initial state: exactly 10/20 components online. Curves are analytical, not traffic-network resilience."
+  },
+  {
+    "file": "R04_MC_ANALYTIC_COMPARISON",
+    "caption": "95% percentile bootstrap intervals; same replicate indices are resampled for all rate scales."
+  },
+  {
+    "file": "R05_FCS_QUEUE_SERVICE",
+    "caption": "Isolated 600-kW station, 150-kW vehicle cap, 120 vehicles, 12 kWh/vehicle."
+  },
+  {
+    "file": "R06_MICRO_MASS_SERVICE",
+    "caption": "30 kWh / 150 kW = 12 min for every positive mass; energy is mass-weighted."
+  },
+  {
+    "file": "R07_CTM_SPILLBACK_FIXTURE",
+    "caption": "Serial 6-cell component test. Full-network junction/spillback calibration is not supplied."
+  },
+  {
+    "file": "R08_VI_ANALYTIC_FIXTURE",
+    "caption": "Analytical solution is [13/3, 17/3] vehicles. No V173 equilibrium is inferred."
+  },
+  {
+    "file": "R09_WCL_LOCATION",
+    "caption": "4 powered minutes at 60 kW and 0.9 efficiency gives 3.6 battery-side kWh."
+  },
+  {
+    "file": "R10_POOL_DELAY",
+    "caption": "Control intervals last five minutes. Delayed resources are shifted, not duplicated."
+  }
+]

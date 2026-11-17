@@ -1,0 +1,39 @@
+Parameter,Value,Unit,SourceKind,Source,Use
+dt,1,min,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Physical grid; refine independently
+horizon,240,min,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",08:00-12:00; late completion is right-censored
+depart_end,120,min from 08:00,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Not an arrival deadline
+event_time,60,min from 08:00,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",09:00 baseline
+control_interval,5,min,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Replanning and repair control are separate clocks
+battery,60,kWh/veh,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Scenario battery; not a measured fleet average
+SOC_low,0.3,fraction,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Class input
+SOC_high,0.75,fraction,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Class input
+SOC_min,0.2,fraction,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Hard feasibility constraint
+low_SOC_share,0.7,fraction,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Sensitivity .50/.70/.90
+task_low,36,battery-side kWh/veh,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss","Prescribed supplied energy, not terminal SOC"
+task_high,9,battery-side kWh/veh,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss","Prescribed supplied energy, not terminal SOC"
+traction,0.2,kWh/km,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Sensitivity .15/.20/.25; needs actual km link lengths
+time_value,6.4,USD/h,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Retain inherited units; not current local monetary calibration
+early_penalty,3.9,USD/h,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Schedule cost
+late_penalty,15.21,USD/h,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Schedule cost
+switch_cost,0.25,USD/action,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Do not double-count locked sunk payments
+SF24_total_demand,3620,veh,SAVED_MAPPING,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Cannot substitute public all-OD matrix for 12 formal ODs
+SF24_formal_paths,107,paths,SAVED_MAPPING,Previously inspected P5P3 tensor 107x2x241,491 in manuscript is unresolved provenance conflict
+ND_total_demand,3700,veh,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Four OD demands 1000/900/1100/700
+SF24_FCS_site_power,40000,kW/site,INHERITED_MODEL,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Aggregate mechanism scale; not a typical real station
+reliability_blocks,20,equivalent blocks/site,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",10/20/40 sensitivity; not literal plug count
+passenger_vehicle_power_cap,150,kW/veh,NEW_REFERENCE_SCENARIO,https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-680/section-680.106,Physical illustration consistent with corridor DCFC minimum rating; not inferred historical parameter
+WCL_ND,70,kW,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Clarify battery-side or transmitted-side in imported state
+WCL_SF24,60,kW,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",0/60/120 selected sensitivity; actual energized locations required
+WCL_high,120,kW,LITERATURE_CONTEXT,https://www.osti.gov/servlets/purl/1874650,Experimental 120kW dynamic system context; not a measured SF24 roadway
+WCL_efficiency_reference,0.9,fraction,NEW_REFERENCE_SCENARIO,https://www.osti.gov/servlets/purl/1874650,"Reference model choice near reported 91.31%; keep explicit, no substitution into frozen data"
+availability_reference,0.97,fraction,MECHANISM_PARAMETER,https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-680/section-680.116,Regulation says >97%; CTMC availability not identical to regulatory excluded-time uptime
+MTTR_reference,60,min,NEW_NORMALIZED_SCENARIO,No operator repair log supplied,Explore 15/30/60/120/240; cannot calibrate mu from uptime alone
+rate_scale,0.25;0.5;1;2;4,dimensionless,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Scale both lambda and mu
+pool_share,0;0.25;0.5;0.75;1,fraction,MANUSCRIPT,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",Same total resource envelope
+mobilization_delay,0;5;10;20,min,NORMALIZED_SCENARIO,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss","Scenario range, not measured dispatch distribution"
+SLA_MTTR_factor,1;0.75;0.5,fraction,NORMALIZED_SCENARIO,"User manuscript section 4.1 and MasterPlan Table 4, read before attachment workspace loss",No universal statutory SLA asserted
+repair_efficiency_eta,REQUIRED_INPUT,dimensionless,MISSING,No inherited calibration supplied,Do not fabricate empirical estimate
+repair_cost_coefficients,REQUIRED_INPUT,USD per resource squared per control interval,MISSING,No inherited calibration supplied,Define interval vs per-minute cost before integration
+SF24_BPR_time_to_min,0.6,min per raw unit,PUBLIC_BENCHMARK,https://github.com/bstabler/TransportationNetworks/blob/master/SiouxFalls/README.md,README: 0.01 hours; alternative minute convention must be named
+SF24_road_distance_km,REQUIRED_INPUT,km,MISSING,Public TNTP lengths are arbitrary equal to raw free-flow times,Do not use raw TNTP length as km for EV energy
+SF24_CTM_discharge_storage,REQUIRED_INPUT,veh/min and veh,MISSING,BPR capacities are not calibrated CTM supply/storage,Explicit independent calibration required

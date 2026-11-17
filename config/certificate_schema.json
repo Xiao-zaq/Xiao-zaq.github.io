@@ -1,0 +1,23 @@
+{
+  "scope": "FORMAL_P4",
+  "experiment": "B",
+  "governance": "G0",
+  "auditor": "REQUIRED",
+  "source_commit": "REQUIRED",
+  "gates": {
+    "pre_event_due": "NOT_GRANTED",
+    "physical_mass": "NOT_GRANTED",
+    "energy_soc": "NOT_GRANTED",
+    "fifo": "NOT_GRANTED",
+    "nonanticipativity": "NOT_GRANTED",
+    "residual_due": "NOT_GRANTED",
+    "repair_clock": "NOT_GRANTED",
+    "power_units": "NOT_GRANTED",
+    "paired_shock": "NOT_GRANTED",
+    "resource_budget": "NOT_GRANTED"
+  },
+  "files": {
+    "metrics.csv": "REQUIRED_SHA256",
+    "timeseries.csv": "REQUIRED_SHA256"
+  }
+}

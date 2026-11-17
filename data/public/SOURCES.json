@@ -1,0 +1,32 @@
+[
+  {
+    "file": "SiouxFalls_net.tntp",
+    "sha256": "ace99b24cec69c273ff0cf3d6d074110177f0cc0ae24b0c7a9f4f4cb5e27635c",
+    "bytes": 3136,
+    "source": "https://github.com/bstabler/TransportationNetworks/tree/master/SiouxFalls"
+  },
+  {
+    "file": "SiouxFalls_node.tntp",
+    "sha256": "91c0b954dcfc6f6f08f48de1ce9d245261f5188a33aef76acf3ce1fff0809969",
+    "bytes": 719,
+    "source": "https://github.com/bstabler/TransportationNetworks/tree/master/SiouxFalls"
+  },
+  {
+    "file": "SiouxFalls_trips.tntp",
+    "sha256": "56f9566857f3f66730fd5c4232258d7ee3ac2931a476526331afd062f4958de7",
+    "bytes": 10859,
+    "source": "https://github.com/bstabler/TransportationNetworks/tree/master/SiouxFalls"
+  },
+  {
+    "file": "SiouxFalls_README.md",
+    "sha256": "ebe1f3dcca4736ca55a059ad82275a2c37489c3c5df915713c518635086054c1",
+    "bytes": 4581,
+    "source": "https://github.com/bstabler/TransportationNetworks/tree/master/SiouxFalls"
+  },
+  {
+    "file": "ND_HAN_REFERENCE.csv",
+    "sha256": "affe855ba301ef0b25498976cd1a8b89340fb0108afe9a210e50975b42224def",
+    "bytes": 752,
+    "source": "https://github.com/DrKeHan/DTA/tree/4dcd7e7c5c26711f26a476d6044f452509e2740e/DUE%20Nguyen%20network"
+  }
+]
